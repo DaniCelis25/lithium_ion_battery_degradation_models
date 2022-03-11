@@ -64,7 +64,7 @@ count = 0
 for delta in range(20, 120, 10):
     delta = delta/100
     
-    for N in range(0,12000,2000): 
+    for N in range(0,6000,1000): 
         list_L_cyc.append([]) 
         
         Sd_valor = sd(delta)
@@ -76,19 +76,18 @@ for delta in range(20, 120, 10):
         L_cyc_result = L_cyc(N, F_d1_result) 
         
         L = L_cyc_result
-        L2= (1-L)*100 # La batería cuando esta nueva es L=0 para representar la capacidad restante se hace este arreglo
+        L2= (1-L)*100 # La batería cuando esta nueva es L=0  y esto se hace para representar la capacidad restante 
     
         list_L_cyc[count].append(L2) 
     count = count +1
     
 
-N = [0,2000,4000,6000,8000,10000]
+N = [0,1000,2000,3000,4000,5000]
 
 plt.subplots()
 plt.plot(N, list_L_cyc[1], marker = '>', label= 'DoD = 30%')
 plt.plot(N, list_L_cyc[3], marker = '>', label= 'DoD = 50%')
 plt.plot(N, list_L_cyc[6], marker = '>', label= 'DoD = 80%')
-plt.plot(N, list_L_cyc[8], marker = '>', label= 'DoD = 100%')
 plt.grid(axis = 'x', color = 'gray', linestyle = 'dashed')
 plt.grid(axis = 'y', color = 'gray', linestyle = 'dashed')
 plt.title('Envejecimiento ciclico')
