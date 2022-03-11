@@ -1,0 +1,16 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: 'calendar and cycle aging '
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - family-names: Celis Álvarez
+    name-particle: Daniela
+    given-names: Dani
+    email: daniela.celis@alumnos.uach.cl
+    orcid: 'https://orcid.org/0000-0002-3329-0169'
+  - {}
