@@ -65,7 +65,7 @@ for T in range(278, 338, 10):
     print("fdt_result= "+ str(fdt_result))
          
     L = L_cal(p, fdt_result)
-    L1 = (1 - L)*100 # La batería cuando esta nueva es L=0 para representar la capacidad restante se hace este arreglo
+    L1 = (1 - L)*100 #La batería cuando esta nueva es L=0  y esto se hace para representar la capacidad restante
         
     list_L[count].append(L1)   
   count = count +1
