@@ -14,13 +14,15 @@ This code is part of a thesis work. With the objective of developing a Python li
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+Use the package manager [PyPI](https://pypi.org/project/degradationmodels/) to install degradationmodels.
 
 ```bash
 pip install degradationmodels
 ```
 
 ## Usage
+
+package modules
 
 ```python
 import degradationmodels as degm
