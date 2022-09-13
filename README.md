@@ -39,16 +39,16 @@ degm.st(kt, t)
 degm.sd(kdelta1, delta, kdelta2, kdelta3)
 
 # returns 'F_d1'
-degm.f_d1(Sd, St, Ssoc, STc)
+degm.F_d1(Sd, St, Ssoc, STc)
     
 # returns 'f_dt'    
 degm.f_dt(St, Ssoc, STc)
     
 # returns 'L_cyc'
-degm.l_cyc(AlphaSei, N, BetaSei, f_d1, e)
+degm.L_cyc(AlphaSei, N, BetaSei, F_d1, e)
    
 # returns 'L_cal'
-degm.l_cal(AlphaSei, e, t, BetaSei, f_dt)
+degm.L_cal(AlphaSei, e, t, BetaSei, f_dt)
 ```
 
 ## Contributing
