@@ -1,6 +1,6 @@
 # lithium_ion_battery_degradation_models
 
-## degradationmodels
+## Degradationmodels
 
 degradationmodels is a Python library for calculing the degradations the battery.
 
