@@ -8,9 +8,9 @@ degradationmodels is a Python library for calculing the degradations the battery
 
 This code is part of a thesis work. With the objective of developing a Python library to evaluate the degradation of lithium-ion batteries, therefore, the battery degradation models that were used are from the following article, called "Modeling of Lithium-Ion Battery Degradation", by the authors Bolum Xu, Alexandre Oudalov, Andreas Ulbing, Göran Andersson and Daniel Kirschen.
 
-### Cite Papers
+#### Cite Papers
 
-[Article](https://ieeexplore.ieee.org/document/7488267/)
+ [Article](https://ieeexplore.ieee.org/document/7488267/)
 
 ## Installation
 
