@@ -23,8 +23,7 @@ pip install degradationmodels
 ## Usage
 package modules
 
-```
-python
+```python
 import degradationmodels as degm
 
 # returns 'stc'
